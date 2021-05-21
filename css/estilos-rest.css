@@ -90,6 +90,7 @@
     }
   }
 /**************************************/
+/*Cuerpo de las cartas contenedores de REst*/
   .card-body a{
     text-align: center;
     text-decoration: none;
@@ -99,18 +100,28 @@
     text-decoration: none;
     
   }
+/*Link a pedido ya*/
+  ul li .pya{
+    text-decoration: none;
+    margin-left:0px;
+  }
 
-/* 
-.cardsSection:nth-of-type(odd){
-  background-color: red; */
-  /* background-image: url("../img/korean-food-kim-bap-steamed-rice-with-vegetables-in-seaweed.jpg");
-} */
+  ul li a:link{
+    color: black;
+  }
+  /*Fin Link a pedido ya*/
+  /*Link a Instagram*/
+  .primero1 a, .segundo a,.tercero a{
+    margin-left: 120px;
+    text-decoration: none;
+  }
+
 
  /*Botones para unir con JS*/
 .info{
   display: none;/*oculta el span de ver mas informacion de pantallas grandes*/
 }
-
+/*Cuerpo de las cartas contenedores de REst*/
 /*Tengo que seguir con el movimiento de img, p y otros*/
   
 @media only screen and (max-width: 450px){
@@ -118,12 +129,14 @@
   /*Botones para unir con JS*/
     .primero, .ultimo,.medio{
       display:none;/*oculta el div con la informacion de los*/
+      
      
 
 
     }
     .primero1 p, .segundo p,.tercero p{
       margin-left:40px;
+      font-family: 'Nanum Myeongjo', serif;
     }
 
     .primero1 ul, .segundo ul,.tercero ul{
@@ -142,6 +155,8 @@
     }
     .info{
       display:inherit;
+      margin-left: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .cuerpoCartas{
