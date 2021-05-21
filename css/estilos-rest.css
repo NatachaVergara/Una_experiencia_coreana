@@ -100,15 +100,15 @@
     
   }
 
-
+/* 
 .cardsSection:nth-of-type(odd){
-  /* background-color: red; */
-  /* background-image: url("../img/korean-food-kim-bap-steamed-rice-with-vegetables-in-seaweed.jpg"); */
-}
+  background-color: red; */
+  /* background-image: url("../img/korean-food-kim-bap-steamed-rice-with-vegetables-in-seaweed.jpg");
+} */
 
  /*Botones para unir con JS*/
 .info{
-  display: none;
+  display: none;/*oculta el span de ver mas informacion de pantallas grandes*/
 }
 
 /*Tengo que seguir con el movimiento de img, p y otros*/
@@ -117,7 +117,7 @@
 
   /*Botones para unir con JS*/
     .primero, .ultimo,.medio{
-      display:none;
+      display:none;/*oculta el div con la informacion de los*/
     }
 
     .cuerpoRest{

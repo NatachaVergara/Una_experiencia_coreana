@@ -1,3 +1,4 @@
+console.log("linqueado")
 //creo un toogle para mostrar la informacion sobre las comidas en el index
 
 mostrar1 = document.querySelector(".mostrar1").addEventListener("click", () =>
