@@ -120,13 +120,29 @@
       display:none;
     }
 
-
+    .cuerpoRest{
+      width: 285px;
+      margin-left: 25px;
+    }
     .info{
       display:inherit;
     }
-  div .card{
+
+    .cuerpoCartas{
+      padding-right: 47px;
+      padding-left: 17px;
+    }
+
+    div .card{
     
-    left: 20px;
-  }
+    left: 30px;
+    }
+
+    footer a{
+      margin-left: 260px;
+    }
+   
+
+
 }
  
