@@ -118,6 +118,22 @@
   /*Botones para unir con JS*/
     .primero, .ultimo,.medio{
       display:none;/*oculta el div con la informacion de los*/
+     
+
+
+    }
+    .primero1 p, .segundo p,.tercero p{
+      margin-left:40px;
+    }
+
+    .primero1 ul, .segundo ul,.tercero ul{
+      margin-left:23px;
+    }
+
+
+    .primero1 a, .segundo a,.tercero a{
+      margin-left: 120px;
+      text-decoration: none;
     }
 
     .cuerpoRest{
