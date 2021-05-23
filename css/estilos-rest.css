@@ -121,7 +121,8 @@ section:last-child{
 }
 
 footer a{
-  margin-left: 925px;
+  max-width: fit-content;
+  margin-left: 400px;
 }
  /*Botones para unir con JS*/
 .info{
@@ -181,6 +182,9 @@ footer a{
     section:last-child{
       margin-left: 0px;
     }
+
+
+
 
 
 }
