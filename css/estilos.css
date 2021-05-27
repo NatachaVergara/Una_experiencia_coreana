@@ -39,6 +39,8 @@ p, .nav-link{
     overflow:none;
 
   }  
+
+
 /*Funcion de JS*/
   .oculto{
     display: none;
@@ -93,7 +95,7 @@ p, .nav-link{
         overflow:auto;
     
       } 
-
+    
 }
 
 @media screen and (min-width:451px)
@@ -101,6 +103,7 @@ p, .nav-link{
     .bienvenidos h2{
         padding-top: 50px;
     }
+
 
     
 
